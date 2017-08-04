@@ -1,6 +1,6 @@
 {
   "name": "cls-redis",
-  "version": "1.0.3",
+  "version": "1.0.3-beta1",
   "description": "Make continuation-local storage play nice with node-redis.",
   "main": "shim.js",
   "scripts": {
@@ -26,11 +26,11 @@
   },
   "peerDependencies": {
     "continuation-local-storage": "^3.0.0",
-    "redis": ">=0.10.2 <1.0.0"
+    "redis": "*"
   },
   "devDependencies": {
     "tap": "~0.4.4",
-    "redis": ">=0.10.2 <1.0.0",
+    "redis": "*",
     "continuation-local-storage": "^3.0.0"
   },
   "dependencies": {
